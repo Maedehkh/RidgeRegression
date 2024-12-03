@@ -2,7 +2,11 @@ clc;
 clear all
 close all
 
+<<<<<<< HEAD
 Folder='.\Data\MotorL';  % Change directory for different functional scores: MotorL or MotorR or Exec or Speed
+=======
+Folder='.\Data\Exec';  % Change directory for different functional scores: MotorL or MotorR or Exec or Speed
+>>>>>>> 66624d2e5c2b37f96df41cd1954cc0c92044f9ad
 RR=fullfile(Folder,'*.mat');
 RMat=dir(RR);
 
